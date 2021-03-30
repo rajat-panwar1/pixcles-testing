@@ -1,0 +1,40 @@
+{
+  "name": "piclxs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vayuz-new/piclxs-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vayuz-new/piclxs-backend/issues"
+  },
+  "homepage": "https://github.com/Vayuz-new/piclxs-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "@vonage/server-sdk": "^2.10.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "google-auth-library": "^7.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "nexmo": "^2.9.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "otplib": "^12.0.1"
+  }
+}
